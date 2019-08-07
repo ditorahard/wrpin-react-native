@@ -1,0 +1,17 @@
+95e5d35ed8c83404880d3b24fd70aee4
+"use strict";var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");Object.defineProperty(exports, "__esModule", { value: true });exports.initialState = void 0;var _home = _interopRequireDefault(require("../home.reducer"));
+
+var initialState = {
+  error: null,
+  isLoading: false,
+  repos: null,
+  selected: null,
+  news: null };exports.initialState = initialState;
+
+
+expect((0, _home.default)(initialState, getNews(data))).toEqual({
+  error: null,
+  isLoading: false,
+  repos: null,
+  selected: null,
+  news: data });

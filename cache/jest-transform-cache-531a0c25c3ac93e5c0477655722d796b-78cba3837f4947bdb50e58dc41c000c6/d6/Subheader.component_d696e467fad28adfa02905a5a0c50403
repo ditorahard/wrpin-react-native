@@ -1,0 +1,377 @@
+174b526fb2217264fadaa929f51903db
+"use strict";
+
+/* istanbul ignore next */var cov_edk2sqd1m = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Subheader\\Subheader.component.js",
+      hash = "7cdf40c7c218ebeba6a40ed8eb511d1228310bc0",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Subheader\\Subheader.component.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 42
+        },
+        end: {
+          line: 1,
+          column: 97
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 98
+        },
+        end: {
+          line: 1,
+          column: 160
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 160
+        },
+        end: {
+          line: 1,
+          column: 185
+        }
+      },
+      "3": {
+        start: {
+          line: 1,
+          column: 208
+        },
+        end: {
+          line: 1,
+          column: 280
+        }
+      },
+      "4": {
+        start: {
+          line: 1,
+          column: 301
+        },
+        end: {
+          line: 1,
+          column: 370
+        }
+      },
+      "5": {
+        start: {
+          line: 1,
+          column: 405
+        },
+        end: {
+          line: 1,
+          column: 488
+        }
+      },
+      "6": {
+        start: {
+          line: 1,
+          column: 512
+        },
+        end: {
+          line: 1,
+          column: 584
+        }
+      },
+      "7": {
+        start: {
+          line: 1,
+          column: 602
+        },
+        end: {
+          line: 1,
+          column: 668
+        }
+      },
+      "8": {
+        start: {
+          line: 1,
+          column: 682
+        },
+        end: {
+          line: 1,
+          column: 722
+        }
+      },
+      "9": {
+        start: {
+          line: 2,
+          column: 19
+        },
+        end: {
+          line: 2,
+          column: 42
+        }
+      },
+      "10": {
+        start: {
+          line: 3,
+          column: 26
+        },
+        end: {
+          line: 3,
+          column: 88
+        }
+      },
+      "11": {
+        start: {
+          line: 4,
+          column: 17
+        },
+        end: {
+          line: 4,
+          column: 62
+        }
+      },
+      "12": {
+        start: {
+          line: 4,
+          column: 82
+        },
+        end: {
+          line: 4,
+          column: 191
+        }
+      },
+      "13": {
+        start: {
+          line: 6,
+          column: 12
+        },
+        end: {
+          line: 15,
+          column: 58
+        }
+      },
+      "14": {
+        start: {
+          line: 6,
+          column: 45
+        },
+        end: {
+          line: 6,
+          column: 102
+        }
+      },
+      "15": {
+        start: {
+          line: 6,
+          column: 124
+        },
+        end: {
+          line: 6,
+          column: 171
+        }
+      },
+      "16": {
+        start: {
+          line: 6,
+          column: 171
+        },
+        end: {
+          line: 6,
+          column: 290
+        }
+      },
+      "17": {
+        start: {
+          line: 6,
+          column: 291
+        },
+        end: {
+          line: 15,
+          column: 10
+        }
+      },
+      "18": {
+        start: {
+          line: 8,
+          column: 6
+        },
+        end: {
+          line: 11,
+          column: 28
+        }
+      },
+      "19": {
+        start: {
+          line: 15,
+          column: 10
+        },
+        end: {
+          line: 15,
+          column: 27
+        }
+      },
+      "20": {
+        start: {
+          line: 15,
+          column: 59
+        },
+        end: {
+          line: 15,
+          column: 87
+        }
+      },
+      "21": {
+        start: {
+          line: 19,
+          column: 0
+        },
+        end: {
+          line: 20,
+          column: 48
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 6,
+            column: 12
+          },
+          end: {
+            line: 6,
+            column: 13
+          }
+        },
+        loc: {
+          start: {
+            line: 6,
+            column: 44
+          },
+          end: {
+            line: 15,
+            column: 28
+          }
+        },
+        line: 6
+      },
+      "1": {
+        name: "Subheader",
+        decl: {
+          start: {
+            line: 6,
+            column: 111
+          },
+          end: {
+            line: 6,
+            column: 120
+          }
+        },
+        loc: {
+          start: {
+            line: 6,
+            column: 123
+          },
+          end: {
+            line: 6,
+            column: 291
+          }
+        },
+        line: 6
+      },
+      "2": {
+        name: "render",
+        decl: {
+          start: {
+            line: 6,
+            column: 363
+          },
+          end: {
+            line: 6,
+            column: 369
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 4
+          },
+          end: {
+            line: 15,
+            column: 5
+          }
+        },
+        line: 7
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = /* istanbul ignore next */(cov_edk2sqd1m.s[0]++, require("@babel/runtime/helpers/interopRequireDefault")); /* istanbul ignore next */cov_edk2sqd1m.s[1]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_edk2sqd1m.s[2]++;
+exports.default = void 0;var _classCallCheck2 = /* istanbul ignore next */(cov_edk2sqd1m.s[3]++, _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck")));var _createClass2 = /* istanbul ignore next */(cov_edk2sqd1m.s[4]++, _interopRequireDefault(require("@babel/runtime/helpers/createClass")));var _possibleConstructorReturn2 = /* istanbul ignore next */(cov_edk2sqd1m.s[5]++, _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn")));var _getPrototypeOf2 = /* istanbul ignore next */(cov_edk2sqd1m.s[6]++, _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf")));var _inherits2 = /* istanbul ignore next */(cov_edk2sqd1m.s[7]++, _interopRequireDefault(require("@babel/runtime/helpers/inherits")));var _react = /* istanbul ignore next */(cov_edk2sqd1m.s[8]++, _interopRequireDefault(require("react")));
+var _reactNative = /* istanbul ignore next */(cov_edk2sqd1m.s[9]++, require("react-native"));
+var _SubheaderComponent = /* istanbul ignore next */(cov_edk2sqd1m.s[10]++, _interopRequireDefault(require("./Subheader.component.style")));
+var _propTypes = /* istanbul ignore next */(cov_edk2sqd1m.s[11]++, _interopRequireDefault(require("prop-types")));var _jsxFileName = /* istanbul ignore next */(cov_edk2sqd1m.s[12]++, "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Subheader\\Subheader.component.js");var Subheader = /* istanbul ignore next */(cov_edk2sqd1m.s[13]++, function (_React$PureComponent) {
+  /* istanbul ignore next */cov_edk2sqd1m.f[0]++;
+  cov_edk2sqd1m.s[14]++;
+  (0, _inherits2.default)(Subheader, _React$PureComponent);function Subheader() {
+    /* istanbul ignore next */cov_edk2sqd1m.f[1]++;
+    cov_edk2sqd1m.s[15]++;
+    (0, _classCallCheck2.default)(this, Subheader); /* istanbul ignore next */cov_edk2sqd1m.s[16]++;
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Subheader).apply(this, arguments));
+  } /* istanbul ignore next */cov_edk2sqd1m.s[17]++;
+  (0, _createClass2.default)(Subheader, [{ key: "render", value: function render() {
+      /* istanbul ignore next */cov_edk2sqd1m.f[2]++;
+      cov_edk2sqd1m.s[18]++;
+
+      return _react.default.createElement(_reactNative.View, { style: _SubheaderComponent.default.hero, __source: { fileName: _jsxFileName, lineNumber: 9 } }, _react.default.createElement(_reactNative.Text, { style: _SubheaderComponent.default.whitetext, __source: { fileName: _jsxFileName, lineNumber: 10 } }, this.props.title));
+    } }]); /* istanbul ignore next */cov_edk2sqd1m.s[19]++;
+  return Subheader;
+}(_react.default.PureComponent)); /* istanbul ignore next */cov_edk2sqd1m.s[20]++;
+exports.default = Subheader;
+
+/* istanbul ignore next */cov_edk2sqd1m.s[21]++;
+Subheader.propTypes = {
+  title: _propTypes.default.string.isRequired };

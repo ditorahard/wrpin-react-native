@@ -1,0 +1,394 @@
+38a48eb96f8531b0d4312d75c16f6619
+"use strict";
+
+/* istanbul ignore next */var cov_1f3fvyzj4k = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Searchbar\\Searchbar.component.js",
+      hash = "72054cdd73bc78a95cafdb7eda36965b7220a7b3",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Searchbar\\Searchbar.component.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 42
+        },
+        end: {
+          line: 1,
+          column: 97
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 98
+        },
+        end: {
+          line: 1,
+          column: 160
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 160
+        },
+        end: {
+          line: 1,
+          column: 185
+        }
+      },
+      "3": {
+        start: {
+          line: 1,
+          column: 208
+        },
+        end: {
+          line: 1,
+          column: 280
+        }
+      },
+      "4": {
+        start: {
+          line: 1,
+          column: 301
+        },
+        end: {
+          line: 1,
+          column: 370
+        }
+      },
+      "5": {
+        start: {
+          line: 1,
+          column: 405
+        },
+        end: {
+          line: 1,
+          column: 488
+        }
+      },
+      "6": {
+        start: {
+          line: 1,
+          column: 512
+        },
+        end: {
+          line: 1,
+          column: 584
+        }
+      },
+      "7": {
+        start: {
+          line: 1,
+          column: 602
+        },
+        end: {
+          line: 1,
+          column: 668
+        }
+      },
+      "8": {
+        start: {
+          line: 1,
+          column: 682
+        },
+        end: {
+          line: 1,
+          column: 722
+        }
+      },
+      "9": {
+        start: {
+          line: 2,
+          column: 19
+        },
+        end: {
+          line: 2,
+          column: 42
+        }
+      },
+      "10": {
+        start: {
+          line: 3,
+          column: 18
+        },
+        end: {
+          line: 3,
+          column: 40
+        }
+      },
+      "11": {
+        start: {
+          line: 4,
+          column: 26
+        },
+        end: {
+          line: 4,
+          column: 88
+        }
+      },
+      "12": {
+        start: {
+          line: 5,
+          column: 17
+        },
+        end: {
+          line: 5,
+          column: 62
+        }
+      },
+      "13": {
+        start: {
+          line: 5,
+          column: 82
+        },
+        end: {
+          line: 5,
+          column: 191
+        }
+      },
+      "14": {
+        start: {
+          line: 7,
+          column: 12
+        },
+        end: {
+          line: 24,
+          column: 58
+        }
+      },
+      "15": {
+        start: {
+          line: 7,
+          column: 45
+        },
+        end: {
+          line: 7,
+          column: 102
+        }
+      },
+      "16": {
+        start: {
+          line: 7,
+          column: 124
+        },
+        end: {
+          line: 7,
+          column: 171
+        }
+      },
+      "17": {
+        start: {
+          line: 7,
+          column: 171
+        },
+        end: {
+          line: 7,
+          column: 290
+        }
+      },
+      "18": {
+        start: {
+          line: 7,
+          column: 291
+        },
+        end: {
+          line: 24,
+          column: 10
+        }
+      },
+      "19": {
+        start: {
+          line: 9,
+          column: 6
+        },
+        end: {
+          line: 18,
+          column: 109
+        }
+      },
+      "20": {
+        start: {
+          line: 24,
+          column: 10
+        },
+        end: {
+          line: 24,
+          column: 27
+        }
+      },
+      "21": {
+        start: {
+          line: 24,
+          column: 59
+        },
+        end: {
+          line: 24,
+          column: 87
+        }
+      },
+      "22": {
+        start: {
+          line: 28,
+          column: 0
+        },
+        end: {
+          line: 30,
+          column: 53
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 12
+          },
+          end: {
+            line: 7,
+            column: 13
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 44
+          },
+          end: {
+            line: 24,
+            column: 28
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "Searchbar",
+        decl: {
+          start: {
+            line: 7,
+            column: 111
+          },
+          end: {
+            line: 7,
+            column: 120
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 123
+          },
+          end: {
+            line: 7,
+            column: 291
+          }
+        },
+        line: 7
+      },
+      "2": {
+        name: "render",
+        decl: {
+          start: {
+            line: 7,
+            column: 363
+          },
+          end: {
+            line: 7,
+            column: 369
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 4
+          },
+          end: {
+            line: 24,
+            column: 5
+          }
+        },
+        line: 8
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = /* istanbul ignore next */(cov_1f3fvyzj4k.s[0]++, require("@babel/runtime/helpers/interopRequireDefault")); /* istanbul ignore next */cov_1f3fvyzj4k.s[1]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_1f3fvyzj4k.s[2]++;
+exports.default = void 0;var _classCallCheck2 = /* istanbul ignore next */(cov_1f3fvyzj4k.s[3]++, _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck")));var _createClass2 = /* istanbul ignore next */(cov_1f3fvyzj4k.s[4]++, _interopRequireDefault(require("@babel/runtime/helpers/createClass")));var _possibleConstructorReturn2 = /* istanbul ignore next */(cov_1f3fvyzj4k.s[5]++, _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn")));var _getPrototypeOf2 = /* istanbul ignore next */(cov_1f3fvyzj4k.s[6]++, _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf")));var _inherits2 = /* istanbul ignore next */(cov_1f3fvyzj4k.s[7]++, _interopRequireDefault(require("@babel/runtime/helpers/inherits")));var _react = /* istanbul ignore next */(cov_1f3fvyzj4k.s[8]++, _interopRequireDefault(require("react")));
+var _reactNative = /* istanbul ignore next */(cov_1f3fvyzj4k.s[9]++, require("react-native"));
+var _nativeBase = /* istanbul ignore next */(cov_1f3fvyzj4k.s[10]++, require("native-base"));
+var _SearchbarComponent = /* istanbul ignore next */(cov_1f3fvyzj4k.s[11]++, _interopRequireDefault(require("./Searchbar.component.style")));
+var _propTypes = /* istanbul ignore next */(cov_1f3fvyzj4k.s[12]++, _interopRequireDefault(require("prop-types")));var _jsxFileName = /* istanbul ignore next */(cov_1f3fvyzj4k.s[13]++, "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Searchbar\\Searchbar.component.js");var Searchbar = /* istanbul ignore next */(cov_1f3fvyzj4k.s[14]++, function (_React$PureComponent) {
+  /* istanbul ignore next */cov_1f3fvyzj4k.f[0]++;
+  cov_1f3fvyzj4k.s[15]++;
+  (0, _inherits2.default)(Searchbar, _React$PureComponent);function Searchbar() {
+    /* istanbul ignore next */cov_1f3fvyzj4k.f[1]++;
+    cov_1f3fvyzj4k.s[16]++;
+    (0, _classCallCheck2.default)(this, Searchbar); /* istanbul ignore next */cov_1f3fvyzj4k.s[17]++;
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Searchbar).apply(this, arguments));
+  } /* istanbul ignore next */cov_1f3fvyzj4k.s[18]++;
+  (0, _createClass2.default)(Searchbar, [{ key: "render", value: function render() {
+      /* istanbul ignore next */cov_1f3fvyzj4k.f[2]++;
+      cov_1f3fvyzj4k.s[19]++;
+
+      return _react.default.createElement(_reactNative.View, { style: _SearchbarComponent.default.searchbar, __source: { fileName: _jsxFileName, lineNumber: 10 } }, _react.default.createElement(_reactNative.View, { style: _SearchbarComponent.default.searchbarContent, __source: { fileName: _jsxFileName, lineNumber: 11 } }, _react.default.createElement(_nativeBase.Item, { rounded: true, __source: { fileName: _jsxFileName, lineNumber: 12 } }, _react.default.createElement(_nativeBase.Icon, { active: true, name: "ios-search", __source: { fileName: _jsxFileName, lineNumber: 13 } }), _react.default.createElement(_nativeBase.Input, {
+        style: _SearchbarComponent.default.searchInput,
+        placeholder: "Search . . .",
+        value: this.props.query,
+        onChangeText: this.props.onChangeText, __source: { fileName: _jsxFileName, lineNumber: 14 } }))));
+    } }]); /* istanbul ignore next */cov_1f3fvyzj4k.s[20]++;
+  return Searchbar;
+}(_react.default.PureComponent)); /* istanbul ignore next */cov_1f3fvyzj4k.s[21]++;
+exports.default = Searchbar;
+
+/* istanbul ignore next */cov_1f3fvyzj4k.s[22]++;
+Searchbar.propTypes = {
+  query: _propTypes.default.string,
+  onChangeText: _propTypes.default.func.isRequired };

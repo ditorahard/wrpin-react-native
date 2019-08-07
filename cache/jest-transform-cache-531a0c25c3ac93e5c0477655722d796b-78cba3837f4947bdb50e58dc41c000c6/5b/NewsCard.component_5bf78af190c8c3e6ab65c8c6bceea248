@@ -1,0 +1,461 @@
+72e49468f82907bd67b43902948e06da
+"use strict";
+
+/* istanbul ignore next */var cov_8jtdl2rdv = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Cards\\Movie\\NewsCard.component.js",
+      hash = "3a64695403b7f7981603162211d898e76b371725",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Cards\\Movie\\NewsCard.component.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 42
+        },
+        end: {
+          line: 1,
+          column: 97
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 128
+        },
+        end: {
+          line: 1,
+          column: 184
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 185
+        },
+        end: {
+          line: 1,
+          column: 247
+        }
+      },
+      "3": {
+        start: {
+          line: 1,
+          column: 247
+        },
+        end: {
+          line: 1,
+          column: 272
+        }
+      },
+      "4": {
+        start: {
+          line: 1,
+          column: 295
+        },
+        end: {
+          line: 1,
+          column: 367
+        }
+      },
+      "5": {
+        start: {
+          line: 1,
+          column: 388
+        },
+        end: {
+          line: 1,
+          column: 457
+        }
+      },
+      "6": {
+        start: {
+          line: 1,
+          column: 492
+        },
+        end: {
+          line: 1,
+          column: 575
+        }
+      },
+      "7": {
+        start: {
+          line: 1,
+          column: 599
+        },
+        end: {
+          line: 1,
+          column: 671
+        }
+      },
+      "8": {
+        start: {
+          line: 1,
+          column: 689
+        },
+        end: {
+          line: 1,
+          column: 755
+        }
+      },
+      "9": {
+        start: {
+          line: 1,
+          column: 769
+        },
+        end: {
+          line: 1,
+          column: 810
+        }
+      },
+      "10": {
+        start: {
+          line: 2,
+          column: 19
+        },
+        end: {
+          line: 2,
+          column: 42
+        }
+      },
+      "11": {
+        start: {
+          line: 3,
+          column: 18
+        },
+        end: {
+          line: 3,
+          column: 40
+        }
+      },
+      "12": {
+        start: {
+          line: 4,
+          column: 25
+        },
+        end: {
+          line: 4,
+          column: 86
+        }
+      },
+      "13": {
+        start: {
+          line: 5,
+          column: 17
+        },
+        end: {
+          line: 5,
+          column: 62
+        }
+      },
+      "14": {
+        start: {
+          line: 5,
+          column: 82
+        },
+        end: {
+          line: 5,
+          column: 193
+        }
+      },
+      "15": {
+        start: {
+          line: 7,
+          column: 11
+        },
+        end: {
+          line: 38,
+          column: 57
+        }
+      },
+      "16": {
+        start: {
+          line: 7,
+          column: 44
+        },
+        end: {
+          line: 7,
+          column: 100
+        }
+      },
+      "17": {
+        start: {
+          line: 7,
+          column: 121
+        },
+        end: {
+          line: 7,
+          column: 167
+        }
+      },
+      "18": {
+        start: {
+          line: 7,
+          column: 167
+        },
+        end: {
+          line: 7,
+          column: 285
+        }
+      },
+      "19": {
+        start: {
+          line: 7,
+          column: 286
+        },
+        end: {
+          line: 38,
+          column: 10
+        }
+      },
+      "20": {
+        start: {
+          line: 8,
+          column: 17
+        },
+        end: {
+          line: 8,
+          column: 21
+        }
+      },
+      "21": {
+        start: {
+          line: 9,
+          column: 6
+        },
+        end: {
+          line: 32,
+          column: 129
+        }
+      },
+      "22": {
+        start: {
+          line: 12,
+          column: 39
+        },
+        end: {
+          line: 12,
+          column: 82
+        }
+      },
+      "23": {
+        start: {
+          line: 38,
+          column: 10
+        },
+        end: {
+          line: 38,
+          column: 26
+        }
+      },
+      "24": {
+        start: {
+          line: 38,
+          column: 58
+        },
+        end: {
+          line: 38,
+          column: 85
+        }
+      },
+      "25": {
+        start: {
+          line: 41,
+          column: 0
+        },
+        end: {
+          line: 47,
+          column: 36
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 11
+          },
+          end: {
+            line: 7,
+            column: 12
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 43
+          },
+          end: {
+            line: 38,
+            column: 27
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "NewsCard",
+        decl: {
+          start: {
+            line: 7,
+            column: 109
+          },
+          end: {
+            line: 7,
+            column: 117
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 120
+          },
+          end: {
+            line: 7,
+            column: 286
+          }
+        },
+        line: 7
+      },
+      "2": {
+        name: "render",
+        decl: {
+          start: {
+            line: 7,
+            column: 357
+          },
+          end: {
+            line: 7,
+            column: 363
+          }
+        },
+        loc: {
+          start: {
+            line: 8,
+            column: 4
+          },
+          end: {
+            line: 38,
+            column: 5
+          }
+        },
+        line: 8
+      },
+      "3": {
+        name: "onPress",
+        decl: {
+          start: {
+            line: 12,
+            column: 28
+          },
+          end: {
+            line: 12,
+            column: 35
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 38
+          },
+          end: {
+            line: 12,
+            column: 83
+          }
+        },
+        line: 12
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = /* istanbul ignore next */(cov_8jtdl2rdv.s[0]++, require("@babel/runtime/helpers/interopRequireDefault"));var _interopRequireWildcard = /* istanbul ignore next */(cov_8jtdl2rdv.s[1]++, require("@babel/runtime/helpers/interopRequireWildcard")); /* istanbul ignore next */cov_8jtdl2rdv.s[2]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_8jtdl2rdv.s[3]++;
+exports.default = void 0;var _classCallCheck2 = /* istanbul ignore next */(cov_8jtdl2rdv.s[4]++, _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck")));var _createClass2 = /* istanbul ignore next */(cov_8jtdl2rdv.s[5]++, _interopRequireDefault(require("@babel/runtime/helpers/createClass")));var _possibleConstructorReturn2 = /* istanbul ignore next */(cov_8jtdl2rdv.s[6]++, _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn")));var _getPrototypeOf2 = /* istanbul ignore next */(cov_8jtdl2rdv.s[7]++, _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf")));var _inherits2 = /* istanbul ignore next */(cov_8jtdl2rdv.s[8]++, _interopRequireDefault(require("@babel/runtime/helpers/inherits")));var _react = /* istanbul ignore next */(cov_8jtdl2rdv.s[9]++, _interopRequireWildcard(require("react")));
+var _reactNative = /* istanbul ignore next */(cov_8jtdl2rdv.s[10]++, require("react-native"));
+var _nativeBase = /* istanbul ignore next */(cov_8jtdl2rdv.s[11]++, require("native-base"));
+var _NewsCardComponent = /* istanbul ignore next */(cov_8jtdl2rdv.s[12]++, _interopRequireDefault(require("./NewsCard.component.style")));
+var _propTypes = /* istanbul ignore next */(cov_8jtdl2rdv.s[13]++, _interopRequireDefault(require("prop-types")));var _jsxFileName = /* istanbul ignore next */(cov_8jtdl2rdv.s[14]++, "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Cards\\Movie\\NewsCard.component.js");var NewsCard = /* istanbul ignore next */(cov_8jtdl2rdv.s[15]++, function (_React$PureComponent) {
+  /* istanbul ignore next */cov_8jtdl2rdv.f[0]++;
+  cov_8jtdl2rdv.s[16]++;
+  (0, _inherits2.default)(NewsCard, _React$PureComponent);function NewsCard() {
+    /* istanbul ignore next */cov_8jtdl2rdv.f[1]++;
+    cov_8jtdl2rdv.s[17]++;
+    (0, _classCallCheck2.default)(this, NewsCard); /* istanbul ignore next */cov_8jtdl2rdv.s[18]++;
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(NewsCard).apply(this, arguments));
+  } /* istanbul ignore next */cov_8jtdl2rdv.s[19]++;
+  (0, _createClass2.default)(NewsCard, [{ key: "render", value: function render() {
+      /* istanbul ignore next */cov_8jtdl2rdv.f[2]++;
+      var _this = /* istanbul ignore next */(cov_8jtdl2rdv.s[20]++, this);
+      /* istanbul ignore next */cov_8jtdl2rdv.s[21]++;
+      return _react.default.createElement(_nativeBase.Card, { style: _NewsCardComponent.default.card, __source: { fileName: _jsxFileName, lineNumber: 10 } }, _react.default.createElement(_reactNative.TouchableOpacity, {
+        onPress: function onPress() {
+          /* istanbul ignore next */cov_8jtdl2rdv.f[3]++;
+          cov_8jtdl2rdv.s[22]++;
+          _this.props.actionImage(_this.props.image);
+        }, __source: { fileName: _jsxFileName, lineNumber: 11 } }, _react.default.createElement(_nativeBase.CardItem, { cardBody: true, __source: { fileName: _jsxFileName, lineNumber: 13 } }, _react.default.createElement(_reactNative.Image, {
+        source: { uri: this.props.image },
+        style: _NewsCardComponent.default.cardImage, __source: { fileName: _jsxFileName, lineNumber: 14 } }))), _react.default.createElement(_reactNative.TouchableOpacity, {
+        onPress: this.props.action, __source: { fileName: _jsxFileName, lineNumber: 19 } }, _react.default.createElement(_nativeBase.CardItem, { __source: { fileName: _jsxFileName, lineNumber: 21 } }, _react.default.createElement(_nativeBase.Body, { __source: { fileName: _jsxFileName, lineNumber: 22 } }, _react.default.createElement(_nativeBase.Text, { __source: { fileName: _jsxFileName, lineNumber: 23 } }, this.props.title), _react.default.createElement(_nativeBase.Text, { note: true, __source: { fileName: _jsxFileName, lineNumber: 24 } }, this.props.subtitle)))), _react.default.createElement(_reactNative.TouchableOpacity, {
+        onPress: this.props.action, __source: { fileName: _jsxFileName, lineNumber: 28 } }, _react.default.createElement(_nativeBase.CardItem, { __source: { fileName: _jsxFileName, lineNumber: 30 } }, _react.default.createElement(_nativeBase.Body, { __source: { fileName: _jsxFileName, lineNumber: 31 } }, _react.default.createElement(_nativeBase.Text, { __source: { fileName: _jsxFileName, lineNumber: 32 } }, "DETAILS")))));
+    } }]); /* istanbul ignore next */cov_8jtdl2rdv.s[23]++;
+  return NewsCard;
+}(_react.default.PureComponent)); /* istanbul ignore next */cov_8jtdl2rdv.s[24]++;
+exports.default = NewsCard;
+
+/* istanbul ignore next */cov_8jtdl2rdv.s[25]++;
+NewsCard.propTypes = {
+  title: _propTypes.default.string,
+  image: _propTypes.default.string,
+  subtitle: _propTypes.default.string,
+  action: _propTypes.default.func,
+  actionImage: _propTypes.default.func,
+  page: _propTypes.default.string };

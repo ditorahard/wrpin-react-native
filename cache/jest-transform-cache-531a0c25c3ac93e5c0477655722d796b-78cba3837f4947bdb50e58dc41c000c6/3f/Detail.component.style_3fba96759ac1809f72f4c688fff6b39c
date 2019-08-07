@@ -1,0 +1,151 @@
+9a6127caff0016d353066c467d1f359b
+"use strict";
+
+/* istanbul ignore next */var cov_1wm79nkjz9 = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Screens\\Detail\\Detail.component.style.js",
+      hash = "328fd67439a3fc73724f962bc8afc655984de105",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Screens\\Detail\\Detail.component.style.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 42
+        },
+        end: {
+          line: 1,
+          column: 97
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 98
+        },
+        end: {
+          line: 1,
+          column: 160
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 160
+        },
+        end: {
+          line: 1,
+          column: 185
+        }
+      },
+      "3": {
+        start: {
+          line: 1,
+          column: 204
+        },
+        end: {
+          line: 1,
+          column: 227
+        }
+      },
+      "4": {
+        start: {
+          line: 2,
+          column: 18
+        },
+        end: {
+          line: 2,
+          column: 63
+        }
+      },
+      "5": {
+        start: {
+          line: 4,
+          column: 18
+        },
+        end: {
+          line: 4,
+          column: 63
+        }
+      },
+      "6": {
+        start: {
+          line: 6,
+          column: 0
+        },
+        end: {
+          line: 31,
+          column: 40
+        }
+      },
+      "7": {
+        start: {
+          line: 31,
+          column: 41
+        },
+        end: {
+          line: 31,
+          column: 68
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = /* istanbul ignore next */(cov_1wm79nkjz9.s[0]++, require("@babel/runtime/helpers/interopRequireDefault")); /* istanbul ignore next */cov_1wm79nkjz9.s[1]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_1wm79nkjz9.s[2]++;
+exports.default = void 0;var _reactNative = /* istanbul ignore next */(cov_1wm79nkjz9.s[3]++, require("react-native"));
+var _Dimensions = /* istanbul ignore next */(cov_1wm79nkjz9.s[4]++, _interopRequireDefault(require("Dimensions")));
+
+var IMAGE_WIDTH = /* istanbul ignore next */(cov_1wm79nkjz9.s[5]++, _Dimensions.default.get('window').width * 0.5);var _default = /* istanbul ignore next */(cov_1wm79nkjz9.s[6]++, _reactNative.StyleSheet.create({
+  container: {
+    padding: 20 },
+
+  imageDetail: {
+    width: IMAGE_WIDTH,
+    height: 200,
+    marginBottom: 20 },
+
+  title: {
+    fontSize: 20,
+    color: "#272726",
+    marginBottom: 10 },
+
+  publishedAt: {
+    fontSize: 12,
+    marginBottom: 10 },
+
+  description: {
+    fontSize: 14,
+    marginBottom: 10 },
+
+  url: {
+    fontSize: 12,
+    color: "#0078D7",
+    textDecorationLine: 'underline' } })); /* istanbul ignore next */cov_1wm79nkjz9.s[7]++;
+exports.default = _default;

@@ -1,0 +1,12 @@
+d0fcb4c1b14c90d974bde341efe4424d
+"use strict";var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");require("react-native");
+var _react = _interopRequireDefault(require("react"));
+var _Detail = _interopRequireDefault(require("../Detail.component"));
+var _reactTestRenderer = _interopRequireDefault(require("react-test-renderer"));var _jsxFileName = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Screens\\Detail\\__tests__\\Detail.component.test.js";
+
+it('Home renders correctly', function () {
+  var tree = _reactTestRenderer.default.create(
+  _react.default.createElement(_Detail.default, { __source: { fileName: _jsxFileName, lineNumber: 8 } })).
+  toJSON();
+  expect(tree).toMatchSnapshot();
+});

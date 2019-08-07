@@ -1,0 +1,33 @@
+de5a1901b363c961afd38c2eefa0ad4b
+"use strict";var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");var _reduxMockStore = _interopRequireDefault(require("redux-mock-store"));
+var _reduxThunk = _interopRequireDefault(require("redux-thunk"));
+var actions = _interopRequireWildcard(require("../home.actions"));
+var types = _interopRequireWildcard(require("../../../constants/ActionTypes"));
+var _axiosMockAdapter = _interopRequireDefault(require("axios-mock-adapter"));
+
+var middlewares = [_reduxThunk.default];
+var mockStore = (0, _reduxMockStore.default)(middlewares);
+
+describe('async actions', function () {
+  afterEach(function () {
+    _axiosMockAdapter.default.restore();
+  });
+
+  it('creates FETCH_TODOS_SUCCESS when fetching todos has been done', function () {
+    _axiosMockAdapter.default.getOnce('/todos', {
+      body: { todos: ['do something'] },
+      headers: { 'content-type': 'application/json' } });
+
+
+    var expectedActions = [
+    { type: types.FETCH_TODOS_REQUEST },
+    { type: types.FETCH_TODOS_SUCCESS, body: { todos: ['do something'] } }];
+
+    var store = mockStore({ todos: [] });
+
+    return store.dispatch(actions.fetchTodos()).then(function () {
+
+      expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+});

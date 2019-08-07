@@ -1,0 +1,176 @@
+77a5c6bccab3bbd1c83515fdc62d3ed6
+"use strict";
+
+/* istanbul ignore next */var cov_ao26geu2b = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\services\\api.js",
+      hash = "6339832615eda0a9d5f9f1983d7e2c950be93488",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\services\\api.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 13
+        },
+        end: {
+          line: 1,
+          column: 75
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 75
+        },
+        end: {
+          line: 1,
+          column: 100
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 110
+        },
+        end: {
+          line: 7,
+          column: 5
+        }
+      },
+      "3": {
+        start: {
+          line: 3,
+          column: 4
+        },
+        end: {
+          line: 3,
+          column: 37
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 6,
+          column: 46
+        }
+      },
+      "5": {
+        start: {
+          line: 10,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 3
+        }
+      },
+      "6": {
+        start: {
+          line: 10,
+          column: 4
+        },
+        end: {
+          line: 10,
+          column: 31
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "GET_URL",
+        decl: {
+          start: {
+            line: 2,
+            column: 20
+          },
+          end: {
+            line: 2,
+            column: 27
+          }
+        },
+        loc: {
+          start: {
+            line: 2,
+            column: 30
+          },
+          end: {
+            line: 4,
+            column: 3
+          }
+        },
+        line: 2
+      },
+      "1": {
+        name: "GET_API_KEY",
+        decl: {
+          start: {
+            line: 5,
+            column: 24
+          },
+          end: {
+            line: 5,
+            column: 35
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 38
+          },
+          end: {
+            line: 7,
+            column: 3
+          }
+        },
+        line: 5
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+cov_ao26geu2b.s[0]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_ao26geu2b.s[1]++;
+exports.default = void 0;var api = /* istanbul ignore next */(cov_ao26geu2b.s[2]++, {
+  GET_URL: function GET_URL() {
+    /* istanbul ignore next */cov_ao26geu2b.f[0]++;
+    cov_ao26geu2b.s[3]++;
+
+    return "https://newsapi.org/v2/";
+  },
+  GET_API_KEY: function GET_API_KEY() {
+    /* istanbul ignore next */cov_ao26geu2b.f[1]++;
+    cov_ao26geu2b.s[4]++;
+
+    return "f21580a595be42ef86bdf6915938524f";
+  } });var _default = /* istanbul ignore next */(cov_ao26geu2b.s[5]++, api); /* istanbul ignore next */cov_ao26geu2b.s[6]++;
+exports.default = _default;

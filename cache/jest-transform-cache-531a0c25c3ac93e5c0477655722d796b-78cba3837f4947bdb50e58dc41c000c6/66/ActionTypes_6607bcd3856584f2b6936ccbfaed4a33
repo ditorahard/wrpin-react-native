@@ -1,0 +1,41 @@
+e600df849f1d32abe3c2d401530a5999
+/* istanbul ignore next */var cov_2g9ptbva8r = function () {
+  var path = 'C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\redux\\constants\\ActionTypes.js',
+      hash = 'e60c19ee81d6b30a7473cf3b65b73e09594841e8',
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = '__coverage__',
+      coverageData = {
+    path: 'C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\redux\\constants\\ActionTypes.js',
+    statementMap: {
+      '0': {
+        start: {
+          line: 1,
+          column: 15
+        },
+        end: {
+          line: 1,
+          column: 25
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      '0': 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: '332fd63041d2c1bcb487cc26dd0d5f7d97098a6c'
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var GET_NEWS = /* istanbul ignore next */(cov_2g9ptbva8r.s[0]++, 'GET_NEWS');

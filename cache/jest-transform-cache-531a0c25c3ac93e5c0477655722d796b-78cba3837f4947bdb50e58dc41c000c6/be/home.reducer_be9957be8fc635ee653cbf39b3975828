@@ -1,0 +1,368 @@
+72271bb51e139e347112cb7327dc8c0f
+"use strict";
+
+/* istanbul ignore next */var cov_zn3k0qz7z = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\redux\\reducers\\home\\home.reducer.js",
+      hash = "e71d1fd7a2ad4c7712fdacf9801ebd1c85af354b",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\redux\\reducers\\home\\home.reducer.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 43
+        },
+        end: {
+          line: 1,
+          column: 99
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 129
+        },
+        end: {
+          line: 1,
+          column: 184
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 185
+        },
+        end: {
+          line: 1,
+          column: 247
+        }
+      },
+      "3": {
+        start: {
+          line: 1,
+          column: 247
+        },
+        end: {
+          line: 1,
+          column: 267
+        }
+      },
+      "4": {
+        start: {
+          line: 1,
+          column: 288
+        },
+        end: {
+          line: 1,
+          column: 358
+        }
+      },
+      "5": {
+        start: {
+          line: 1,
+          column: 371
+        },
+        end: {
+          line: 1,
+          column: 434
+        }
+      },
+      "6": {
+        start: {
+          line: 3,
+          column: 29
+        },
+        end: {
+          line: 3,
+          column: 111
+        }
+      },
+      "7": {
+        start: {
+          line: 3,
+          column: 125
+        },
+        end: {
+          line: 3,
+          column: 172
+        }
+      },
+      "8": {
+        start: {
+          line: 4,
+          column: 2
+        },
+        end: {
+          line: 18,
+          column: 20
+        }
+      },
+      "9": {
+        start: {
+          line: 6,
+          column: 8
+        },
+        end: {
+          line: 8,
+          column: 43
+        }
+      },
+      "10": {
+        start: {
+          line: 12,
+          column: 8
+        },
+        end: {
+          line: 14,
+          column: 41
+        }
+      },
+      "11": {
+        start: {
+          line: 18,
+          column: 6
+        },
+        end: {
+          line: 18,
+          column: 19
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "home",
+        decl: {
+          start: {
+            line: 3,
+            column: 9
+          },
+          end: {
+            line: 3,
+            column: 13
+          }
+        },
+        loc: {
+          start: {
+            line: 3,
+            column: 16
+          },
+          end: {
+            line: 20,
+            column: 1
+          }
+        },
+        line: 3
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 3,
+            column: 29
+          },
+          end: {
+            line: 3,
+            column: 111
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 3,
+            column: 82
+          },
+          end: {
+            line: 3,
+            column: 94
+          }
+        }, {
+          start: {
+            line: 3,
+            column: 97
+          },
+          end: {
+            line: 3,
+            column: 111
+          }
+        }],
+        line: 3
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 3,
+            column: 29
+          },
+          end: {
+            line: 3,
+            column: 79
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 3,
+            column: 29
+          },
+          end: {
+            line: 3,
+            column: 49
+          }
+        }, {
+          start: {
+            line: 3,
+            column: 53
+          },
+          end: {
+            line: 3,
+            column: 79
+          }
+        }],
+        line: 3
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 3,
+            column: 125
+          },
+          end: {
+            line: 3,
+            column: 172
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 3,
+            column: 148
+          },
+          end: {
+            line: 3,
+            column: 160
+          }
+        }, {
+          start: {
+            line: 3,
+            column: 163
+          },
+          end: {
+            line: 3,
+            column: 172
+          }
+        }],
+        line: 3
+      },
+      "3": {
+        loc: {
+          start: {
+            line: 4,
+            column: 2
+          },
+          end: {
+            line: 18,
+            column: 20
+          }
+        },
+        type: "switch",
+        locations: [{
+          start: {
+            line: 5,
+            column: 4
+          },
+          end: {
+            line: 10,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 11,
+            column: 4
+          },
+          end: {
+            line: 16,
+            column: 7
+          }
+        }, {
+          start: {
+            line: 17,
+            column: 4
+          },
+          end: {
+            line: 18,
+            column: 19
+          }
+        }],
+        line: 4
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0],
+      "3": [0, 0, 0]
+    },
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireWildcard = /* istanbul ignore next */(cov_zn3k0qz7z.s[0]++, require("@babel/runtime/helpers/interopRequireWildcard"));var _interopRequireDefault = /* istanbul ignore next */(cov_zn3k0qz7z.s[1]++, require("@babel/runtime/helpers/interopRequireDefault")); /* istanbul ignore next */cov_zn3k0qz7z.s[2]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_zn3k0qz7z.s[3]++;
+exports.home = home;var _objectSpread2 = /* istanbul ignore next */(cov_zn3k0qz7z.s[4]++, _interopRequireDefault(require("@babel/runtime/helpers/objectSpread")));var types = /* istanbul ignore next */(cov_zn3k0qz7z.s[5]++, _interopRequireWildcard(require("../../constants/ActionTypes")));
+
+function home() {
+  /* istanbul ignore next */cov_zn3k0qz7z.f[0]++;
+  var state = /* istanbul ignore next */(cov_zn3k0qz7z.s[6]++, /* istanbul ignore next */(cov_zn3k0qz7z.b[1][0]++, arguments.length > 0) && /* istanbul ignore next */(cov_zn3k0qz7z.b[1][1]++, arguments[0] !== undefined) ? /* istanbul ignore next */(cov_zn3k0qz7z.b[0][0]++, arguments[0]) : /* istanbul ignore next */(cov_zn3k0qz7z.b[0][1]++, { news: null }));var action = /* istanbul ignore next */(cov_zn3k0qz7z.s[7]++, arguments.length > 1 ? /* istanbul ignore next */(cov_zn3k0qz7z.b[2][0]++, arguments[1]) : /* istanbul ignore next */(cov_zn3k0qz7z.b[2][1]++, undefined));
+  /* istanbul ignore next */cov_zn3k0qz7z.s[8]++;
+  switch (action.type) {
+    case types.GET_NEWS:
+      /* istanbul ignore next */cov_zn3k0qz7z.b[3][0]++;
+      {
+        /* istanbul ignore next */cov_zn3k0qz7z.s[9]++;
+
+        return (0, _objectSpread2.default)({}, state, {
+          news: action.payload.articles });
+      }
+    case types.CHANGE_SEARCH_QUERY:
+      /* istanbul ignore next */cov_zn3k0qz7z.b[3][1]++;
+      {
+        /* istanbul ignore next */cov_zn3k0qz7z.s[10]++;
+
+        return (0, _objectSpread2.default)({}, state, {
+          searchQuery: action.payload });
+      }
+    default:
+      /* istanbul ignore next */cov_zn3k0qz7z.b[3][2]++;
+      cov_zn3k0qz7z.s[11]++;
+
+      return state;}
+}

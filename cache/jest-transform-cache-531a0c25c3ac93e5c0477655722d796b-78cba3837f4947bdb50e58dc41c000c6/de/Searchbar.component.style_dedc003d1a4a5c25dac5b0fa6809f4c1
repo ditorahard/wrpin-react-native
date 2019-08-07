@@ -1,0 +1,108 @@
+e78ce7ec3f99fd6b7fa2cc30c0174540
+"use strict";
+
+/* istanbul ignore next */var cov_2rcg236b2d = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Searchbar\\Searchbar.component.style.js",
+      hash = "0a742693d581737236f22fa50e48bc8577bcc9ad",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Searchbar\\Searchbar.component.style.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 13
+        },
+        end: {
+          line: 1,
+          column: 75
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 75
+        },
+        end: {
+          line: 1,
+          column: 100
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 119
+        },
+        end: {
+          line: 1,
+          column: 142
+        }
+      },
+      "3": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 21,
+          column: 26
+        }
+      },
+      "4": {
+        start: {
+          line: 21,
+          column: 27
+        },
+        end: {
+          line: 21,
+          column: 54
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+cov_2rcg236b2d.s[0]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_2rcg236b2d.s[1]++;
+exports.default = void 0;var _reactNative = /* istanbul ignore next */(cov_2rcg236b2d.s[2]++, require("react-native"));var _default = /* istanbul ignore next */(cov_2rcg236b2d.s[3]++, _reactNative.StyleSheet.create({
+  searchbar: {
+    padding: 5,
+    backgroundColor: '#FFFFFF',
+    elevation: 1,
+    shadowOffset: { width: 5, height: 5 },
+    shadowColor: "grey",
+    shadowOpacity: 0.5,
+    shadowRadius: 10,
+    marginBottom: 3,
+    marginTop: 3 },
+
+  searchInput: {
+    fontSize: 15 },
+
+  whitetext: {
+    color: '#FFFFFF',
+    fontSize: 20,
+    fontWeight: '700' } })); /* istanbul ignore next */cov_2rcg236b2d.s[4]++;
+exports.default = _default;

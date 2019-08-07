@@ -1,0 +1,344 @@
+f9f9c6655c512782cac93b87941122df
+"use strict";
+
+/* istanbul ignore next */var cov_1ooaey0q7x = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\redux\\actions\\home\\home.actions.js",
+      hash = "e70f843d4de46063bec17286b92b29c2c0a6a212",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\redux\\actions\\home\\home.actions.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 42
+        },
+        end: {
+          line: 1,
+          column: 97
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 98
+        },
+        end: {
+          line: 1,
+          column: 160
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 160
+        },
+        end: {
+          line: 1,
+          column: 210
+        }
+      },
+      "3": {
+        start: {
+          line: 1,
+          column: 210
+        },
+        end: {
+          line: 1,
+          column: 236
+        }
+      },
+      "4": {
+        start: {
+          line: 1,
+          column: 249
+        },
+        end: {
+          line: 1,
+          column: 289
+        }
+      },
+      "5": {
+        start: {
+          line: 2,
+          column: 11
+        },
+        end: {
+          line: 2,
+          column: 67
+        }
+      },
+      "6": {
+        start: {
+          line: 5,
+          column: 2
+        },
+        end: {
+          line: 7,
+          column: 27
+        }
+      },
+      "7": {
+        start: {
+          line: 12,
+          column: 2
+        },
+        end: {
+          line: 26,
+          column: 4
+        }
+      },
+      "8": {
+        start: {
+          line: 13,
+          column: 4
+        },
+        end: {
+          line: 24,
+          column: 7
+        }
+      },
+      "9": {
+        start: {
+          line: 16,
+          column: 6
+        },
+        end: {
+          line: 18,
+          column: 34
+        }
+      },
+      "10": {
+        start: {
+          line: 20,
+          column: 6
+        },
+        end: {
+          line: 20,
+          column: 50
+        }
+      },
+      "11": {
+        start: {
+          line: 23,
+          column: 6
+        },
+        end: {
+          line: 23,
+          column: 26
+        }
+      },
+      "12": {
+        start: {
+          line: 25,
+          column: 4
+        },
+        end: {
+          line: 25,
+          column: 11
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "onChangeSearchQuery",
+        decl: {
+          start: {
+            line: 4,
+            column: 9
+          },
+          end: {
+            line: 4,
+            column: 28
+          }
+        },
+        loc: {
+          start: {
+            line: 4,
+            column: 42
+          },
+          end: {
+            line: 9,
+            column: 1
+          }
+        },
+        line: 4
+      },
+      "1": {
+        name: "getNews",
+        decl: {
+          start: {
+            line: 11,
+            column: 9
+          },
+          end: {
+            line: 11,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 11,
+            column: 36
+          },
+          end: {
+            line: 27,
+            column: 1
+          }
+        },
+        line: 11
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 12,
+            column: 9
+          },
+          end: {
+            line: 12,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 39
+          },
+          end: {
+            line: 26,
+            column: 3
+          }
+        },
+        line: 12
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 15,
+            column: 9
+          },
+          end: {
+            line: 15,
+            column: 10
+          }
+        },
+        loc: {
+          start: {
+            line: 15,
+            column: 29
+          },
+          end: {
+            line: 21,
+            column: 5
+          }
+        },
+        line: 15
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 22,
+            column: 10
+          },
+          end: {
+            line: 22,
+            column: 11
+          }
+        },
+        loc: {
+          start: {
+            line: 22,
+            column: 27
+          },
+          end: {
+            line: 24,
+            column: 5
+          }
+        },
+        line: 22
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = /* istanbul ignore next */(cov_1ooaey0q7x.s[0]++, require("@babel/runtime/helpers/interopRequireDefault")); /* istanbul ignore next */cov_1ooaey0q7x.s[1]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_1ooaey0q7x.s[2]++;
+exports.onChangeSearchQuery = onChangeSearchQuery; /* istanbul ignore next */cov_1ooaey0q7x.s[3]++;
+exports.getNews = getNews;var _axios = /* istanbul ignore next */(cov_1ooaey0q7x.s[4]++, _interopRequireDefault(require("axios")));
+var _api = /* istanbul ignore next */(cov_1ooaey0q7x.s[5]++, _interopRequireDefault(require("../../../services/api")));
+
+function onChangeSearchQuery(searchQuery) {
+  /* istanbul ignore next */cov_1ooaey0q7x.f[0]++;
+  cov_1ooaey0q7x.s[6]++;
+
+  return {
+    type: 'CHANGE_SEARCH_QUERY',
+    payload: searchQuery };
+}
+
+function getNews(searchQuery, page) {
+  /* istanbul ignore next */cov_1ooaey0q7x.f[1]++;
+  cov_1ooaey0q7x.s[7]++;
+
+  return function (dispatch, getState) {
+    /* istanbul ignore next */cov_1ooaey0q7x.f[2]++;
+    cov_1ooaey0q7x.s[8]++;
+
+    _axios.default.get(_api.default.GET_URL() + 'everything?q=' + searchQuery + '&apiKey=' + _api.default.GET_API_KEY()).then(function (response) {
+      /* istanbul ignore next */cov_1ooaey0q7x.f[3]++;
+      cov_1ooaey0q7x.s[9]++;
+
+      dispatch({
+        type: 'GET_NEWS',
+        payload: response.data });
+
+      /* istanbul ignore next */cov_1ooaey0q7x.s[10]++;
+      console.warn("Ini get news", response.data);
+    }).catch(function (error) {
+      /* istanbul ignore next */cov_1ooaey0q7x.f[4]++;
+      cov_1ooaey0q7x.s[11]++;
+
+      console.warn(error);
+    });
+    /* istanbul ignore next */cov_1ooaey0q7x.s[12]++;
+    return;
+  };
+}

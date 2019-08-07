@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for redux/actions/home/home.actions.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">redux/actions/home</a> home.actions.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">48% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>12/25</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">15.38% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>2/13</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">31.58% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>6/19</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58</td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import axios from "axios";
+import api from "../../../services/api";
+import * as types from "../../constants/ActionTypes";
+&nbsp;
+function <span class="fstat-no" title="function not covered" >fetchTodosRequest(</span>) {
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'FETCH_TODOS_REQUEST'
+  }
+}
+&nbsp;
+function <span class="fstat-no" title="function not covered" >fetchTodosSuccess(</span>body) {
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'FETCH_TODOS_SUCCESS',
+    body
+  }
+}
+&nbsp;
+function <span class="fstat-no" title="function not covered" >fetchTodosFailure(</span>ex) {
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'FETCH_TODOS_FAILURE',
+    ex
+  }
+}
+&nbsp;
+export fu<span class="fstat-no" title="function not covered" >nction fetc</span>hTodos(url) {
+<span class="cstat-no" title="statement not covered" >  return <span class="fstat-no" title="function not covered" >di</span>spatch =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    dispatch(fetchTodosRequest())</span>
+<span class="cstat-no" title="statement not covered" >    return axios.get(url)</span>
+      .th<span class="fstat-no" title="function not covered" >en</span>(res =&gt; res.js<span class="cstat-no" title="statement not covered" >on())</span>
+      .th<span class="fstat-no" title="function not covered" >en</span>(body =&gt; dispat<span class="cstat-no" title="statement not covered" >ch(fetchTodosSuccess(body)))</span>
+      .cat<span class="fstat-no" title="function not covered" >ch</span>(ex =&gt; dispat<span class="cstat-no" title="statement not covered" >ch(fetchTodosFailure(ex)))</span>
+  }
+}
+&nbsp;
+export fu<span class="fstat-no" title="function not covered" >nction onChangeSearc</span>hQuery(searchQuery) {
+<span class="cstat-no" title="statement not covered" >  return {   </span>
+      type: types.CHANGE_SEARCH_QUERY,
+      payload : searchQuery
+  }
+}
+&nbsp;
+export function getNews(searchQuery, page){
+	return (dispatch, getState) =&gt;{
+		axios
+			.get(api.GET_URL() + 'everything?q='+ searchQuery +'&amp;apiKey=' + api.GET_API_KEY() )
+			.then(<span class="fstat-no" title="function not covered" >(r</span>esponse) =&gt; {
+				di<span class="cstat-no" title="statement not covered" >spatch({</span>
+					type:types.GET_NEWS,
+					payload:response.data,
+				});
+				co<span class="cstat-no" title="statement not covered" >nsole.warn("Ini get news", response.data)</span>
+			})
+			.catch(<span class="fstat-no" title="function not covered" >(e</span>rror) =&gt;{
+				co<span class="cstat-no" title="statement not covered" >nsole.warn(error);</span>
+			})
+   		return;
+	}
+}</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Jan 28 2019 17:19:26 GMT+0700 (Indochina Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

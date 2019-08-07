@@ -1,0 +1,103 @@
+e62ebc2e21eae33a4ac5f9f392df8c53
+"use strict";
+
+/* istanbul ignore next */var cov_2g9ptbva8r = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\redux\\constants\\ActionTypes.js",
+      hash = "bc953b2e52c0726b9e379bc2a2a1c67e4adfbaa4",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\redux\\constants\\ActionTypes.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 13
+        },
+        end: {
+          line: 1,
+          column: 75
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 75
+        },
+        end: {
+          line: 1,
+          column: 131
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 146
+        },
+        end: {
+          line: 1,
+          column: 156
+        }
+      },
+      "3": {
+        start: {
+          line: 1,
+          column: 157
+        },
+        end: {
+          line: 1,
+          column: 185
+        }
+      },
+      "4": {
+        start: {
+          line: 2,
+          column: 26
+        },
+        end: {
+          line: 2,
+          column: 47
+        }
+      },
+      "5": {
+        start: {
+          line: 2,
+          column: 48
+        },
+        end: {
+          line: 2,
+          column: 98
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+cov_2g9ptbva8r.s[0]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_2g9ptbva8r.s[1]++;
+exports.CHANGE_SEARCH_QUERY = exports.GET_NEWS = void 0;var GET_NEWS = /* istanbul ignore next */(cov_2g9ptbva8r.s[2]++, 'GET_NEWS'); /* istanbul ignore next */cov_2g9ptbva8r.s[3]++;
+exports.GET_NEWS = GET_NEWS;
+var CHANGE_SEARCH_QUERY = /* istanbul ignore next */(cov_2g9ptbva8r.s[4]++, 'CHANGE_SEARCH_QUERY'); /* istanbul ignore next */cov_2g9ptbva8r.s[5]++;
+exports.CHANGE_SEARCH_QUERY = CHANGE_SEARCH_QUERY;

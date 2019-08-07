@@ -1,0 +1,29 @@
+2ce2b593f31a898256c21448c716f648
+"use strict";var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");var _reduxMockStore = _interopRequireDefault(require("redux-mock-store"));
+var _reduxThunk = _interopRequireDefault(require("redux-thunk"));
+var actions = _interopRequireWildcard(require("../home.actions"));
+var types = _interopRequireWildcard(require("../../../constants/ActionTypes"));
+var _axios = _interopRequireDefault(require("axios"));
+var _axiosMockAdapter = _interopRequireDefault(require("axios-mock-adapter"));
+
+var mock = new _axiosMockAdapter.default(_axios.default);
+var middlewares = [_reduxThunk.default];
+var mockStore = (0, _reduxMockStore.default)(middlewares);
+
+describe('async actions', function () {
+  afterEach(function () {
+    mock.restore();
+  });
+
+  it('creates FETCH_TODOS_SUCCESS when fetching todos has been done',
+  function () {
+    mock.onGet('/news', { news: ['do something'] });
+    var expectedActions = [
+    { type: 'GET_NEWS', payload: { news: ['do something'] } }];
+
+    var store = mockStore({ news: [] });
+    return store.dispatch(actions.getNews('bitcoin', 1)).then(function () {
+      expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+});

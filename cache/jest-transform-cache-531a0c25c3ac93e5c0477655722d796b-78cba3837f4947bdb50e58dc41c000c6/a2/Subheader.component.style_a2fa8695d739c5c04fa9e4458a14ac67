@@ -1,0 +1,100 @@
+1f0dcc5fd8468498d76f8bf21d2ef216
+"use strict";
+
+/* istanbul ignore next */var cov_1kdm3zw7h3 = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Subheader\\Subheader.component.style.js",
+      hash = "5343349981aae8059d3fc46929500a1dfe03b530",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Subheader\\Subheader.component.style.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 13
+        },
+        end: {
+          line: 1,
+          column: 75
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 75
+        },
+        end: {
+          line: 1,
+          column: 100
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 119
+        },
+        end: {
+          line: 1,
+          column: 142
+        }
+      },
+      "3": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 13,
+          column: 26
+        }
+      },
+      "4": {
+        start: {
+          line: 13,
+          column: 27
+        },
+        end: {
+          line: 13,
+          column: 54
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+cov_1kdm3zw7h3.s[0]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_1kdm3zw7h3.s[1]++;
+exports.default = void 0;var _reactNative = /* istanbul ignore next */(cov_1kdm3zw7h3.s[2]++, require("react-native"));var _default = /* istanbul ignore next */(cov_1kdm3zw7h3.s[3]++, _reactNative.StyleSheet.create({
+  hero: {
+    paddingTop: 20,
+    paddingBottom: 20,
+    alignItems: 'center',
+    backgroundColor: '#D20202' },
+
+  whitetext: {
+    color: '#FFFFFF',
+    fontSize: 20,
+    fontWeight: '700' } })); /* istanbul ignore next */cov_1kdm3zw7h3.s[4]++;
+exports.default = _default;

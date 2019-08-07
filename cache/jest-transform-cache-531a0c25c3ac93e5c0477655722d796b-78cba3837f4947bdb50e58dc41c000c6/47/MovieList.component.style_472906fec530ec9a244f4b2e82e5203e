@@ -1,0 +1,136 @@
+627a03ea06a6ef4dadee488d168408ba
+"use strict";
+
+/* istanbul ignore next */var cov_1sipdut1kw = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\List\\Movie\\MovieList.component.style.js",
+      hash = "b17f45ff3c08abf23899eeaba05c06be8be83276",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\List\\Movie\\MovieList.component.style.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 42
+        },
+        end: {
+          line: 1,
+          column: 97
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 98
+        },
+        end: {
+          line: 1,
+          column: 160
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 160
+        },
+        end: {
+          line: 1,
+          column: 185
+        }
+      },
+      "3": {
+        start: {
+          line: 1,
+          column: 204
+        },
+        end: {
+          line: 1,
+          column: 227
+        }
+      },
+      "4": {
+        start: {
+          line: 2,
+          column: 18
+        },
+        end: {
+          line: 2,
+          column: 63
+        }
+      },
+      "5": {
+        start: {
+          line: 4,
+          column: 19
+        },
+        end: {
+          line: 4,
+          column: 58
+        }
+      },
+      "6": {
+        start: {
+          line: 9,
+          column: 0
+        },
+        end: {
+          line: 19,
+          column: 16
+        }
+      },
+      "7": {
+        start: {
+          line: 19,
+          column: 17
+        },
+        end: {
+          line: 19,
+          column: 44
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = /* istanbul ignore next */(cov_1sipdut1kw.s[0]++, require("@babel/runtime/helpers/interopRequireDefault")); /* istanbul ignore next */cov_1sipdut1kw.s[1]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_1sipdut1kw.s[2]++;
+exports.default = void 0;var _reactNative = /* istanbul ignore next */(cov_1sipdut1kw.s[3]++, require("react-native"));
+var _Dimensions = /* istanbul ignore next */(cov_1sipdut1kw.s[4]++, _interopRequireDefault(require("Dimensions")));
+
+var SCREEN_WIDTH = /* istanbul ignore next */(cov_1sipdut1kw.s[5]++, _Dimensions.default.get('window').width);var _default = /* istanbul ignore next */(cov_1sipdut1kw.s[6]++, _reactNative.StyleSheet.create({
+  roundedForm: {
+    flex: 1 },
+
+  card: {
+    flex: 1 },
+
+  cardImage: {
+    height: 200,
+    width: null,
+    flex: 1 } })); /* istanbul ignore next */cov_1sipdut1kw.s[7]++;
+exports.default = _default;

@@ -1,0 +1,39 @@
+3cbd298689679f1d80e9ed70c0054d0f
+"use strict";var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");require("react-native");
+var _react = _interopRequireDefault(require("react"));
+var _home = _interopRequireDefault(require("../home.reducer"));
+var types = _interopRequireWildcard(require("../../../constants/ActionTypes"));
+
+module.hot.accept('../../root/root.reducer', function () {
+  var nextRootReducer = require('../../root/root.reducer').default;
+  store.replaceReducer(nextRootReducer);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+describe('Home Reducer', function () {
+  it('has a default state', function () {
+    expect(root.home(undefined, { type: types.getNews })).toEqual({
+      news: null });
+
+  });
+});

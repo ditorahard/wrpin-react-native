@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subheader renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#D20202",
+      "paddingBottom": 20,
+      "paddingTop": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#FFFFFF",
+        "fontSize": 20,
+        "fontWeight": "700",
+      }
+    }
+  />
+</View>
+`;

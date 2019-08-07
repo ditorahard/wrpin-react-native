@@ -1,0 +1,39 @@
+ba17c8434757699fbb061522ded68014
+"use strict";var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");require("react-native");
+var _react = _interopRequireDefault(require("react"));
+var _root = _interopRequireDefault(require("../../root/root.reducer"));
+var types = _interopRequireWildcard(require("../../../constants/ActionTypes"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+describe('Home Reducer', function () {
+  it('has a default state', function () {
+    expect(_root.default.home(undefined, { type: types.getNews })).toEqual({
+      news: null });
+
+  });
+});

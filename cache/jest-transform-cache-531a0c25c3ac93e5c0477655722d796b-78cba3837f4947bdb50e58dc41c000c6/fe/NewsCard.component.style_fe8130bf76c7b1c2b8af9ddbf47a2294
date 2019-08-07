@@ -1,0 +1,101 @@
+6fe18da17baf864a8e1a673108e7e970
+"use strict";
+
+/* istanbul ignore next */var cov_1fh6er0r8c = function () {
+  var path = "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Cards\\Movie\\NewsCard.component.style.js",
+      hash = "1f8b3ad56d26fc153b3e871160dd12eada2072e0",
+      Function = function () {}.constructor,
+      global = new Function('return this')(),
+      gcv = "__coverage__",
+      coverageData = {
+    path: "C:\\Users\\Dito\\Documents\\Projects\\Work\\RNQerjaTest\\app\\components\\Cards\\Movie\\NewsCard.component.style.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 13
+        },
+        end: {
+          line: 1,
+          column: 75
+        }
+      },
+      "1": {
+        start: {
+          line: 1,
+          column: 75
+        },
+        end: {
+          line: 1,
+          column: 100
+        }
+      },
+      "2": {
+        start: {
+          line: 1,
+          column: 119
+        },
+        end: {
+          line: 1,
+          column: 142
+        }
+      },
+      "3": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 14,
+          column: 16
+        }
+      },
+      "4": {
+        start: {
+          line: 14,
+          column: 17
+        },
+        end: {
+          line: 14,
+          column: 44
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
+  },
+      coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+cov_1fh6er0r8c.s[0]++;
+Object.defineProperty(exports, "__esModule", { value: true }); /* istanbul ignore next */cov_1fh6er0r8c.s[1]++;
+exports.default = void 0;var _reactNative = /* istanbul ignore next */(cov_1fh6er0r8c.s[2]++, require("react-native"));var _default = /* istanbul ignore next */(cov_1fh6er0r8c.s[3]++, _reactNative.StyleSheet.create({
+  roundedForm: {
+    flex: 1 },
+
+  card: {
+    flex: 1,
+    marginBottom: 20 },
+
+  cardImage: {
+    height: 400,
+    width: null,
+    flex: 1 } })); /* istanbul ignore next */cov_1fh6er0r8c.s[4]++;
+exports.default = _default;
